@@ -8,10 +8,48 @@ html {
 }
 
 body {
-  font: 300 1rem/1.375 "Roboto", Georgia, sans-serif;
+  font: 300 1rem/1.375 "Source Sans Pro", sans-serif;
   color: #212931;
+}
+
+h1,
+h2,
+h3,
+nav ul,
+#copyright,
+table th,
+.heading {
+  font: 900 "Source Sans Pro", sans-serif;
+  letter-spacing: 0.02em;
 }
 
 h1 {
   font: bold 3rem "Alkatra", cursive, serif;
+  text-align: center;
+  text-transform: uppercase;
+  color: #f8f8f8;
+}
+
+p {
+  text-align: center;
+}
+
+#container {
+  background-image: linear-gradient(45deg, #fe798b 0%, #ffdde1 100%);
+}
+
+header {
+  background: url(../images/surfers-unsplash.jpg) no-repeat fixed center;
+  background-size: 100% auto;
+  padding: 22rem;
+  border-bottom: 0.2rem solid #ee9ca7;
+}
+
+nav {
+  background-image: linear-gradient(
+    -225deg,
+    #c2d4ff 0%,
+    #bacff0 50%,
+    #def3f8 100%
+  );
 }
