@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Alkatra", cursive;
+  src: url(../fonts/Alkatra/static/Alkatra-Regular.ttf);
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font: 300 1rem/1.375 "Roboto", Georgia, sans-serif;
+  color: #212931;
+}
+
+h1 {
+  font: bold 3rem "Alkatra", cursive, serif;
+}
